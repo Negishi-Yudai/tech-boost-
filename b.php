@@ -1,6 +1,6 @@
 <?php
-$name = Yudai;
-if($name = Yudai){
+$name = "Yudai";
+if($name = "Yudai"){
     echo "私は$nameです";
 } else {
     echo "あなたの名前ではありません";
@@ -13,9 +13,9 @@ echo $total;
 
 $fruits = array("イチゴ","リンゴ","バナナ","メロン","ブドウ");
 
-foreach($fruits as $fruits){
-    echo $fruits;
-    echo "<br>";
+foreach($fruits as $item){
+    echo $item;
+    echo "/n";
 }
 
 for($i = 1;$i <= 100;$i++){
